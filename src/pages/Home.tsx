@@ -2,12 +2,14 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Star, Award, Users, Heart } from "lucide-react";
 import doctorPortrait from "@/assets/doctor-portrait.jpg";
 import clinicHero from "@/assets/clinic-hero.jpg";
 
 const Home = () => {
+  const navigate = useNavigate();
+  
   const testimonials = [
     {
       name: "Jennifer Thompson",
@@ -45,10 +47,10 @@ const Home = () => {
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-primary/5 to-accent/5 overflow-hidden">
-          <div className="absolute inset-0 bg-grid-pattern opacity-5" />
+          <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none" />
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="animate-fade-in">
+              <div className="animate-fade-in relative z-10">
                 <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
                   Expert Medical Care You Can Trust
                 </h1>
@@ -58,16 +60,22 @@ const Home = () => {
                 <p className="text-base md:text-lg text-muted-foreground mb-8">
                   <span className="font-medium text-foreground">Jyoti Kshirsagar Medical Clinic</span> • Medical District, New York
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button asChild size="lg" className="bg-accent hover:bg-accent/90 w-full sm:w-auto">
-                    <Link to="/appointment">
-                      Book Appointment
-                    </Link>
+                <div className="flex flex-col sm:flex-row gap-4 relative z-10">
+                  <Button 
+                    size="lg" 
+                    variant="outline" 
+                    className="w-full sm:w-auto"
+                    onClick={() => navigate("/appointment")}
+                  >
+                    Book Appointment
                   </Button>
-                  <Button asChild size="lg" variant="outline" className="w-full sm:w-auto">
-                    <Link to="/services">
-                      View Services
-                    </Link>
+                  <Button 
+                    size="lg" 
+                    variant="outline" 
+                    className="w-full sm:w-auto"
+                    onClick={() => navigate("/services")}
+                  >
+                    View Services
                   </Button>
                 </div>
               </div>
@@ -132,10 +140,11 @@ const Home = () => {
                 <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
                   With a passion for preventive care and patient education, Dr. Jyoti Kshirsagar brings over 15 years of clinical experience to every consultation. Her approach combines evidence-based medicine with compassionate, personalized care.
                 </p>
-                <Button asChild variant="outline">
-                  <Link to="/about">
-                    Learn More About Dr. Jyoti Kshirsagar
-                  </Link>
+                <Button 
+                  variant="outline"
+                  onClick={() => navigate("/about")}
+                >
+                  Learn More About Dr. Jyoti Kshirsagar
                 </Button>
               </div>
 
@@ -196,10 +205,13 @@ const Home = () => {
             <p className="text-lg mb-8 opacity-90">
               Schedule your consultation today and experience personalized, expert medical care
             </p>
-            <Button asChild size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90">
-              <Link to="/appointment">
-                Book Your Appointment
-              </Link>
+            <Button 
+              size="lg" 
+              variant="secondary" 
+              className="bg-background text-foreground hover:bg-background/90"
+              onClick={() => navigate("/appointment")}
+            >
+              Book Your Appointment
             </Button>
           </div>
         </section>
