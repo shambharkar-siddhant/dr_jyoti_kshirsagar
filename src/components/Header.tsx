@@ -43,9 +43,9 @@ const Header = () => {
                 {link.name}
               </Link>
             ))}
-            <Link to="/appointment">
-              <Button className="bg-accent hover:bg-accent/90">Book Now</Button>
-            </Link>
+            <Button asChild className="bg-accent hover:bg-accent/90">
+              <Link to="/appointment">Book Now</Link>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -78,9 +78,9 @@ const Header = () => {
                   {link.name}
                 </Link>
               ))}
-              <Link to="/appointment" onClick={() => setMobileMenuOpen(false)}>
-                <Button className="w-full bg-accent hover:bg-accent/90">Book Now</Button>
-              </Link>
+              <Button asChild className="w-full bg-accent hover:bg-accent/90" onClick={() => setMobileMenuOpen(false)}>
+                <Link to="/appointment">Book Now</Link>
+              </Button>
             </div>
           </div>
         )}

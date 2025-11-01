@@ -59,16 +59,16 @@ const Home = () => {
                   <span className="font-medium text-foreground">Jyoti Kshirsagar Medical Clinic</span> • Medical District, New York
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Link to="/appointment">
-                    <Button size="lg" className="bg-accent hover:bg-accent/90 w-full sm:w-auto">
+                  <Button asChild size="lg" className="bg-accent hover:bg-accent/90 w-full sm:w-auto">
+                    <Link to="/appointment">
                       Book Appointment
-                    </Button>
-                  </Link>
-                  <Link to="/services">
-                    <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                    </Link>
+                  </Button>
+                  <Button asChild size="lg" variant="outline" className="w-full sm:w-auto">
+                    <Link to="/services">
                       View Services
-                    </Button>
-                  </Link>
+                    </Link>
+                  </Button>
                 </div>
               </div>
               
@@ -132,9 +132,11 @@ const Home = () => {
                 <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-6">
                   With a passion for preventive care and patient education, Dr. Jyoti Kshirsagar brings over 15 years of clinical experience to every consultation. Her approach combines evidence-based medicine with compassionate, personalized care.
                 </p>
-                <Link to="/about">
-                  <Button variant="outline">Learn More About Dr. Jyoti Kshirsagar</Button>
-                </Link>
+                <Button asChild variant="outline">
+                  <Link to="/about">
+                    Learn More About Dr. Jyoti Kshirsagar
+                  </Link>
+                </Button>
               </div>
 
               {/* Video Section */}
@@ -194,11 +196,11 @@ const Home = () => {
             <p className="text-lg mb-8 opacity-90">
               Schedule your consultation today and experience personalized, expert medical care
             </p>
-            <Link to="/appointment">
-              <Button size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90">
+            <Button asChild size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90">
+              <Link to="/appointment">
                 Book Your Appointment
-              </Button>
-            </Link>
+              </Link>
+            </Button>
           </div>
         </section>
       </main>
