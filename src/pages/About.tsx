@@ -63,7 +63,7 @@ const About = () => {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
-                About Dr. Sarah Mitchell
+                About Dr. Jyoti Kshirsagar
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
                 Dedicated to providing exceptional, personalized healthcare for over 15 years
@@ -84,19 +84,19 @@ const About = () => {
                   
                   <div className="space-y-4 text-muted-foreground">
                     <p>
-                      Dr. Sarah Mitchell is a board-certified family medicine physician with over 15 years of clinical experience. After graduating from Johns Hopkins University School of Medicine with honors, she completed her residency at the prestigious Mayo Clinic, where she developed a passion for preventive medicine and patient-centered care.
+                      Dr. Jyoti Kshirsagar is a board-certified family medicine physician with over 15 years of clinical experience. After graduating from Johns Hopkins University School of Medicine with honors, she completed her residency at the prestigious Mayo Clinic, where she developed a passion for preventive medicine and patient-centered care.
                     </p>
                     
                     <p>
-                      Throughout her career, Dr. Mitchell has been committed to staying at the forefront of medical innovation while maintaining the timeless values of compassionate, personalized healthcare. She believes in treating the whole person, not just symptoms, and takes the time to understand each patient's unique health goals and concerns.
+                      Throughout her career, Dr. Jyoti Kshirsagar has been committed to staying at the forefront of medical innovation while maintaining the timeless values of compassionate, personalized healthcare. She believes in treating the whole person, not just symptoms, and takes the time to understand each patient's unique health goals and concerns.
                     </p>
                     
                     <p>
-                      In 2015, Dr. Mitchell established Mitchell Medical Clinic with a vision to create a healthcare environment where patients feel truly heard and cared for. The clinic has since become a trusted healthcare destination, serving over 5,000 patients and maintaining a 98% patient satisfaction rate.
+                      In 2015, Dr. Jyoti Kshirsagar established Jyoti Kshirsagar Medical Clinic with a vision to create a healthcare environment where patients feel truly heard and cared for. The clinic has since become a trusted healthcare destination, serving over 5,000 patients and maintaining a 98% patient satisfaction rate.
                     </p>
                     
                     <p>
-                      Dr. Mitchell is an active member of the American Academy of Family Physicians and regularly participates in continuing medical education to ensure her patients receive the most current, evidence-based care. When she's not caring for patients, she volunteers at local community health initiatives and mentors medical students.
+                      Dr. Jyoti Kshirsagar is an active member of the American Academy of Family Physicians and regularly participates in continuing medical education to ensure her patients receive the most current, evidence-based care. When she's not caring for patients, she volunteers at local community health initiatives and mentors medical students.
                     </p>
                   </div>
                 </div>
@@ -106,7 +106,7 @@ const About = () => {
                     <div className="rounded-2xl overflow-hidden shadow-xl mb-6">
                       <img
                         src={doctorPortrait}
-                        alt="Dr. Sarah Mitchell"
+                        alt="Dr. Jyoti Kshirsagar"
                         className="w-full h-auto"
                       />
                     </div>
@@ -170,7 +170,7 @@ const About = () => {
                 Our Philosophy
               </h2>
               <p className="text-lg text-muted-foreground text-center mb-12 max-w-3xl mx-auto">
-                At Mitchell Medical Clinic, our approach to healthcare is built on three core principles
+                At Jyoti Kshirsagar Medical Clinic, our approach to healthcare is built on three core principles
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

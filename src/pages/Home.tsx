@@ -180,9 +180,9 @@ const Home = () => {
               {testimonials.map((testimonial, index) => (
                 <Card key={index} className="animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                   <CardContent className="pt-6">
-                    <div className="flex mb-4">
+                    <div className="flex mb-4 gap-0.5">
                       {[...Array(testimonial.rating)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 fill-gold text-gold" />
+                        <Star key={i} className="w-5 h-5 fill-gold text-gold" style={{ fill: 'hsl(var(--gold))' }} />
                       ))}
                     </div>
                     <p className="text-sm text-muted-foreground mb-4 line-clamp-4">

@@ -130,7 +130,7 @@ const Appointment = () => {
                 Book Your Appointment
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Schedule your consultation with Dr. Sarah Mitchell today
+              Schedule your consultation with Dr. Jyoti Kshirsagar today
               </p>
             </div>
           </div>
@@ -280,7 +280,7 @@ const Appointment = () => {
                       <div className="flex items-start space-x-3">
                         <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                         <div>
-                          <p className="text-sm font-medium">Mitchell Medical Clinic</p>
+                          <p className="text-sm font-medium">Jyoti Kshirsagar Medical Clinic</p>
                           <p className="text-sm text-muted-foreground">123 Healthcare Ave</p>
                           <p className="text-sm text-muted-foreground">Medical District, NY 10001</p>
                         </div>
@@ -295,8 +295,8 @@ const Appointment = () => {
 
                       <div className="flex items-center space-x-3">
                         <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                        <a href="mailto:contact@drsarahmitchell.com" className="text-sm hover:text-primary transition-colors">
-                          contact@drsarahmitchell.com
+                        <a href="mailto:contact@jyotikshirsagar.com" className="text-sm hover:text-primary transition-colors">
+                          contact@jyotikshirsagar.com
                         </a>
                       </div>
                     </CardContent>
