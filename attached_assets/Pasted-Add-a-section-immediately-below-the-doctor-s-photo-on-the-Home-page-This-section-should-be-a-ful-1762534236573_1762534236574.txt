@@ -1,0 +1,46 @@
+Add a section immediately below the doctor’s photo on the Home page.
+
+This section should be a **full-width booking strip** that feels like part of the page (not a floating bar). 
+It should visually look like a “sticky booking bar” but actually sits inline in the layout — always visible when the doctor’s picture is on screen, exactly like the one on drsuzanassarian.com.
+
+### Design requirements
+- Full-width horizontal strip.
+- Slightly elevated look: light background color (#f6f6f6 or soft teal tint) with subtle shadow or border-top.
+- Rounded corners (xl) if it fits the design.
+- Content centered on both desktop and mobile.
+- Layout on desktop: 
+  [Small friendly text or tagline on left]  [Compact appointment form on right].
+- Layout on mobile: stacked vertically with the form under the text.
+
+### Content
+Left side (or top on mobile):
+- Friendly heading: “Book your visit” or “Ready for a brighter smile?”
+- Subtext: “Send us a quick message on WhatsApp — we’ll confirm your slot soon!”
+
+Right side (or below on mobile):
+- Simple inline booking form with only three fields:
+  1. Name (text input)
+  2. WhatsApp Number (text input)
+  3. Message (multiline text)
+- Large, rounded “Book on WhatsApp” button (accent color teal or brand color).
+- When clicked, button should open a WhatsApp Click-to-Chat link:
+  https://wa.me/<clinic-number>?text=Hi%20Dr!%20I'm%20{Name}%20and%20I’d%20like%20to%20book%20an%20appointment.%20{Message}
+- Add basic validation (non-empty fields).
+- Friendly success message after submission: “We’ll get back to you soon on WhatsApp! 😊”
+
+### Visual style
+- Modern, friendly, approachable.
+- Teal or turquoise accent color matching the brand.
+- Minimal labels, rounded input boxes.
+- Font: Poppins or Inter.
+- Use soft hover and focus effects.
+- Keep the overall height slim — like a subtle callout bar, not a large form section.
+
+### Responsive behavior
+- Mobile-first: inputs full width, stacked, large touch targets.
+- Desktop: form fields inline, balanced spacing.
+- Ensure it’s visually integrated with the doctor’s photo section (small shadow overlap is okay).
+
+### Optional detail
+- Small tooth icon or smile icon on left side of the heading.
+- Subtle background gradient (white → light teal) for a premium touch.

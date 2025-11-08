@@ -1,111 +1,111 @@
-# React + TypeScript + Vite Project
+# Dental Clinic Website
 
-A modern React application built with TypeScript and Vite, featuring a complete UI toolkit setup.
+A mobile-first, casual-friendly website for a single-doctor dental clinic built with React and TypeScript. This is a static website that uses WhatsApp for booking appointments.
 
-## Tech Stack
+## Prerequisites
 
-### Core Technologies
-- **React 18** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Utility-first styling
-- **React Router DOM** - Client-side routing
+- **Node.js** (v18 or higher recommended)
+- **npm** (comes with Node.js)
 
-### UI & Components
-- **shadcn/ui** - Reusable component library (Radix UI primitives)
-- **Lucide React** - Icon library
-- **Sonner** - Toast notifications
+## Setup Instructions
 
-### Forms & Validation
-- **React Hook Form** - Form management
-- **Zod** - Schema validation
-
-### Data & State
-- **TanStack Query** - Server state management
-- **Next Themes** - Dark/light mode support
-
-## Getting Started
-
-### Installation
+### 1. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Development
+### 2. Run the Development Server
+
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-### Build
+The application will be available at:
+- **Frontend**: http://localhost:5000 (or the port specified in your `PORT` environment variable)
 
-```bash
-npm run build
-```
+The dev server runs the React frontend with hot module replacement (HMR).
 
-### Preview
+**Note:** The development server includes an Express backend for local development, but the production build is a static site with no backend required.
 
-```bash
-npm run preview
-```
+## Available Scripts
+
+- `npm run dev` - Start the development server (includes Express server for local dev)
+- `npm run build` - Build the application for production (static site)
+- `npm run build:vercel` - Build for Vercel deployment (static site only)
+- `npm run start` - Start the production server (requires building first)
+- `npm run check` - Run TypeScript type checking
 
 ## Project Structure
 
 ```
-src/
-├── components/        # React components
-│   ├── ui/           # shadcn/ui components
-│   └── ...           # Other components
-├── lib/              # Utility functions
-│   └── utils.ts      # Helper utilities (cn function)
-├── hooks/            # Custom React hooks
-└── ...
+├── client/          # React frontend application
+│   ├── src/
+│   │   ├── components/  # React components
+│   │   ├── pages/       # Page components
+│   │   └── ...
+│   └── index.html
+├── server/          # Express backend (for local development only)
+│   ├── index.ts     # Server entry point
+│   ├── routes.ts    # API routes (currently unused)
+│   └── storage.ts   # Data storage layer (currently unused)
+├── shared/          # Shared code
+│   └── schema.ts    # Database schema (currently unused)
+└── attached_assets/ # Static assets (images, etc.)
 ```
 
-## Path Aliases
+## Development
 
-The project uses `@/` as an alias for the `src/` directory:
+- The frontend is served by Vite in development mode with hot module replacement
+- The Express backend is only used for local development
+- In production, this is a completely static site with no backend required
 
-- `@/components` → `src/components`
-- `@/lib` → `src/lib`
-- `@/hooks` → `src/hooks`
+## Production Build
 
-## Adding shadcn/ui Components
-
-This project is configured for shadcn/ui. To add new components:
+To build for production:
 
 ```bash
-npx shadcn@latest add [component-name]
+npm run build:vercel
 ```
 
-Example:
-```bash
-npx shadcn@latest add button
-npx shadcn@latest add card
-npx shadcn@latest add form
-```
+This builds a static site that can be deployed to any static hosting service (Vercel, Netlify, GitHub Pages, etc.).
 
-## Features
+The build process:
+1. Builds the React frontend using Vite
+2. Outputs static files to the `dist/public/` directory
 
-- ✅ TypeScript configured with strict mode
-- ✅ Tailwind CSS with custom theme variables
-- ✅ Dark mode support via next-themes
-- ✅ React Router for navigation
-- ✅ TanStack Query for server state
-- ✅ Toast notifications ready
-- ✅ Form validation setup (React Hook Form + Zod)
-- ✅ Path aliases configured
-- ✅ ESLint configured
+## Deployment to Vercel
 
-## Next Steps
+This site is ready to deploy to Vercel as a static site:
 
-1. Add your routes in `src/App.tsx`
-2. Create your components in `src/components/`
-3. Add shadcn/ui components as needed
-4. Set up your API integration with TanStack Query
-5. Create forms with React Hook Form and Zod validation
+1. **Push your code to GitHub**
 
-## License
+2. **Connect to Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Import your repository
+   - Vercel will auto-detect the settings from `vercel.json`
 
-MIT
+3. **Deploy**:
+   - Vercel will automatically build and deploy your site
+   - No environment variables needed!
+   - No database setup required!
+
+The `vercel.json` file is already configured for static site deployment.
+
+## Troubleshooting
+
+### Port Already in Use
+
+If port 5000 is already in use:
+1. Set the `PORT` environment variable: `PORT=3000 npm run dev`
+2. Or kill the process using port 5000
+
+## Technologies Used
+
+- **Frontend**: React, TypeScript, Tailwind CSS, Radix UI
+- **Build Tools**: Vite
+- **Routing**: Wouter (frontend)
+- **Booking**: WhatsApp integration (no backend required)
+

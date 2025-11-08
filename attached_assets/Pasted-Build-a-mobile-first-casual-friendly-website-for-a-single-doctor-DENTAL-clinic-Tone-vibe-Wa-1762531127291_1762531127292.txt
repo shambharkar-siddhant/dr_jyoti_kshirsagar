@@ -1,0 +1,93 @@
+Build a mobile-first, casual, friendly website for a single-doctor DENTAL clinic.
+
+Tone & vibe:
+- Warm, approachable, human. Less hospital, more “text your friendly dentist.”
+- Microcopy should be short, conversational, and emoji-light (e.g., “Book a quick slot”).
+- Use large touch targets, sticky CTAs on mobile, and minimal form fields.
+
+Brand & style:
+- Minimalist layout.
+- Color palette: soft teal (#11A7A7) + warm sand/peach accent (#F6E7DA) + charcoal text (#222).
+- Rounded corners (lg/2xl), subtle shadows, smooth fade/slide transitions.
+- Typography: Poppins or Inter for headings, Inter for body. 16–18px base size on mobile.
+
+Pages:
+1) Home (primary landing)
+2) About
+3) Services (cards + detail pages)
+4) Book an appointment
+
+Global UX:
+- Sticky top bar with logo, “Services”, “About”.
+- Footer: clinic address, hours, phone, Instagram link, WhatsApp link, Google Map embed.
+
+HOME PAGE (mobile-first layout):
+- Hero: Doctor photo (friendly portrait), name, specialty(Hollywood Smile, No Shaving Teeth, Super Thin, No Injection ,Super Natural).
+- Primary CTA row: 
+  [Book on WhatsApp] [Call] — large buttons.
+- "Smile Transformation" or something better section immediately on Home:
+   there will be around 4-6 images of before and after with comparison slider of patients teeths
+  Place a tiny note: “We’ll reply on WhatsApp soon.”
+- Testimonials (3–5 short reviews) — casual tone, circle avatars.
+- Add FAQ section after with 5-6 question and short one liner answers
+- Map + quick info:
+  - Google Maps embedded (scroll-protected container)
+  - Hours table
+  - “Directions” link to Google Maps
+- Social row: Instagram icon link, WhatsApp icon link.
+
+ABOUT PAGE:
+- Friendly intro photo, short bio (education, years of practice, cosmetic focus).
+- Approach section: gentle care, painless techniques, honest advice.
+- “Book on WhatsApp” CTA.
+
+SERVICES PAGE:
+- Cards with large icons and quick benefit copy, e.g.,
+  - “Cleaning & Polishing — fresher breath, brighter smile”
+  - “Veneers — minimal prep, natural look”
+- Clicking a card opens a dedicated service page:
+  - Banner image or icon
+  - What it is, who it’s for, how long it takes, aftercare tips
+  - “Book this service on WhatsApp” button (prefill message with service name)
+  - Secondary link back to all services
+
+BOOK PAGE (optional standalone):
+- Same 3-field mini-form (Name, WhatsApp, Message) centered, plus a “Book on WhatsApp” instant button.
+- Reassurance text: “No spam. We reply fast on WhatsApp.”
+- after booking this message will go to patient from doctors number and doctor will reply after that. 
+
+WhatsApp integration specifics:
+- Form should compose a friendly prefilled message including Name + Service (if selected) + preferred time.
+- Validate phone number for international format; show hint for +91 India numbers.
+
+Map integration:
+- Use Google Maps Embed in the footer and on Home near contact.
+
+Technical requirements:
+- Next.js (App Router), React, Tailwind CSS.
+- Components: Header (sticky), Footer, ServiceCard, TestimonialCard, BookingForm (WhatsApp), MapEmbed, Section wrappers.
+- Responsive: prioritize mobile viewports first (375–430px widths).
+- Performance: lazy-load map and images; use next/image.
+- Add robots.txt, sitemap, and basic SEO tags for clinic name + location.
+- Create /api/notify route (stub) that sends an email copy of the request to the doctor (in case WhatsApp isn’t opened by the user). Use environment variables for email target.
+- imp - it will be hosted on vercel so make it static. 
+
+Copywriting (placeholders to be replaced later):
+- Clinic name, area, and city in headings and metadata.
+- Short blurbs per service (1–2 sentences, friendly).
+- 3–5 short testimonials (first name, short quote).
+
+Accessibility:
+- High-contrast buttons, proper labels, keyboard focus states, aria labels on icons.
+- Avoid autoplay media. Respect prefers-reduced-motion.
+
+Deliverables:
+- All pages with demo content & images/placeholders.
+- Working WhatsApp Click-to-Chat from the booking form and service CTAs.
+- Footer with contact details, Instagram link, WhatsApp link, and Google Map embed.
+- Minimal backend /api/notify (email stub) for graceful fallback.
+
+Polish:
+- Subtle micro-animations (card hover lift, button press).
+- Smooth scroll to booking block from any “Book” button.
+- Keep everything friendly, clear, and fast on mobile.
