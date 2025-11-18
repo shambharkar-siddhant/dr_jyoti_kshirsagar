@@ -19,12 +19,6 @@ import avatar3 from '@assets/generated_images/Young_female_testimonial_avatar_88
 
 const services = [
   {
-    id: "cleaning",
-    title: "Cleaning & Polishing",
-    description: "Fresher breath, brighter smile",
-    icon: Sparkles,
-  },
-  {
     id: "veneers",
     title: "Veneers",
     description: "Minimal prep, natural look",
@@ -41,6 +35,12 @@ const services = [
     title: "Crowns & Bridges",
     description: "Strong, lasting tooth restoration",
     icon: Shield,
+  },
+  {
+    id: "cleaning",
+    title: "Cleaning & Polishing",
+    description: "Fresher breath, brighter smile",
+    icon: Sparkles,
   },
 ];
 
@@ -80,14 +80,17 @@ export default function Home() {
                 Dr. Jyoti
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground mb-6">
-                Cosmetic Dentistry Specialist
+                Cosmetic Dentist
+              </p>
+              <p className="text-l sm:text-l text-muted-foreground mb-6">
+                MDS Prosthodontist
               </p>
               <div className="flex flex-wrap gap-2 mb-8">
                 <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Hollywood Smile</span>
                 <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">No Shaving Teeth</span>
-                <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Super Thin</span>
-                <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">No Injection</span>
+                <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Utlra Thin</span>
                 <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Super Natural</span>
+                <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Full Mouth Rehabilitation</span>
               </div>
               <a
                 href="tel:+919876543210"
@@ -96,7 +99,7 @@ export default function Home() {
               >
                 <Button variant="outline" size="lg" className="group">
                   <Phone className="w-5 h-5 mr-2" />
-                  <span className="hidden sm:inline">Call Now - </span>
+                  <span className="hidden sm:inline">WhatsApp Now - </span>
                   <span className="font-semibold">+91 98765 43210</span>
                 </Button>
               </a>
@@ -170,7 +173,7 @@ export default function Home() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="container mx-auto max-w-6xl">
           <h2 className="font-heading text-3xl sm:text-4xl font-bold text-center mb-3">
-            What Our Patients Say
+            Reviews from Patients
           </h2>
           <p className="text-center text-muted-foreground mb-12">
             Real experiences, real smiles

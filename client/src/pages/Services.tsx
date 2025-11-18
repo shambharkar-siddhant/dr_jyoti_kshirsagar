@@ -1,13 +1,7 @@
-import { Sparkles, Smile, Shield, Zap, Users, Award } from "lucide-react";
+import { Sparkles, Smile, Shield, Zap, Users, Award, Hammer, Gem, ShieldAlert, Crown } from "lucide-react";
 import ServiceCard from "@/components/ServiceCard";
 
 const services = [
-  {
-    id: "cleaning",
-    title: "Cleaning & Polishing",
-    description: "Fresher breath, brighter smile",
-    icon: Sparkles,
-  },
   {
     id: "veneers",
     title: "Veneers",
@@ -24,7 +18,7 @@ const services = [
     id: "crowns",
     title: "Crowns & Bridges",
     description: "Strong, lasting tooth restoration",
-    icon: Shield,
+    icon: Crown,
   },
   {
     id: "implants",
@@ -37,6 +31,30 @@ const services = [
     title: "Orthodontics",
     description: "Straighten teeth with modern braces",
     icon: Users,
+  },
+  {
+    id: "cleaning",
+    title: "Cleaning & Polishing",
+    description: "Fresher breath, brighter smile",
+    icon: Sparkles,
+  },
+  {
+    id: "filling",
+    title: "Tooth Filling",
+    description: "Restore decayed or damaged teeth seamlessly",
+    icon: Hammer, // or use Wrench / Tool / ShieldCheck depending on your icon set
+  },
+  {
+    id: "crown",
+    title: "Dental Crown",
+    description: "Protect and restore broken or weak teeth",
+    icon: Gem, // or use Shield / Layers / Building for a royal or protective feel
+  },
+  {
+    id: "rootCanal",
+    title: "Root Canal Treatment",
+    description: "Save infected teeth with painless precision",
+    icon: ShieldAlert, // or use HeartPulse / ShieldAlert / Stethoscope if available
   },
 ];
 

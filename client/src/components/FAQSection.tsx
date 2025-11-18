@@ -13,24 +13,24 @@ interface FAQ {
 
 const faqs: FAQ[] = [
   {
-    question: "Do you accept walk-in appointments?",
-    answer: "We prefer scheduled appointments to ensure minimal wait time, but we do accommodate walk-ins based on availability.",
+    question: "How to make an appointment with Dr.Jyoti?",
+    answer: "The most effective way to schedule appointment with Dr.Jyoti is by sending WhatsApp message on +0000000000 number",
   },
   {
-    question: "Is the treatment painful?",
-    answer: "We use the latest painless techniques and ensure you're comfortable throughout. Most procedures involve minimal to no discomfort.",
+    question: "Do I need to send photo of my teeth?",
+    answer: "Yes. You can definetly send picture of your teeth on whatsapp, it will be very healpful.",
   },
   {
-    question: "How long does a typical visit take?",
-    answer: "A routine check-up takes about 30-45 minutes. Complex procedures are scheduled with adequate time and discussed in advance.",
+    question: "How many sessions does it take to get veeners?",
+    answer: "It can be done in only two sessions, the first one lasting 30 minutes and the second one 1 hour.",
   },
   {
-    question: "Do you offer payment plans?",
-    answer: "Yes, we offer flexible payment options for major treatments. Contact us to discuss your specific needs.",
+    question: "How many days does it take to get veeners?",
+    answer: "You may select a package based on the number of days, with options for 4-day, 5-day, 7-day, and 14-day stays",
   },
   {
-    question: "How do I prepare for my first visit?",
-    answer: "Just bring any previous dental records if you have them. We'll take care of the rest and make you feel at home.",
+    question: "What is price of veeners without shaving the teeth?",
+    answer: "Text us at +00000000000 on WhatsApp to get a quote for non shaving veneers",
   },
 ];
 

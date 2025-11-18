@@ -1,5 +1,5 @@
 import { useRoute, Link } from "wouter";
-import { ArrowLeft, Clock, Users, Heart } from "lucide-react";
+import { ArrowLeft, Clock, Users, Heart, Hammer, ShieldAlert, Crown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import QuickBookingStrip from "@/components/QuickBookingStrip";
@@ -127,6 +127,65 @@ const servicesData: Record<string, {
       "Avoid hard or sticky foods (braces)",
     ],
   },
+  filling: {
+    title: "Tooth Filling",
+    icon: Hammer,
+    description: "Restores teeth damaged by decay or minor fractures using durable, tooth-colored materials.",
+    whatItIs: "A dental filling repairs cavities or small areas of tooth damage. The decayed portion is removed and replaced with a strong, tooth-colored composite material that blends seamlessly with your natural enamel.",
+    whoItsFor: [
+      "Patients with cavities or tooth decay",
+      "Anyone with chipped or worn teeth",
+      "Those needing to restore tooth function and appearance",
+    ],
+    duration: "Single visit (30-60 minutes per tooth)",
+    aftercare: [
+      "Avoid eating until numbness wears off",
+      "Refrain from very hard or sticky foods for 24 hours",
+      "Brush and floss regularly to prevent new decay",
+      "Schedule dental cleanings every 6 months",
+    ],
+  },
+  
+  crown: {
+    title: "Dental Crown",
+    icon: Crown,
+    description: "Protects and restores strength, shape, and appearance to damaged or root-treated teeth.",
+    whatItIs: "A dental crown is a custom-made cap that covers a tooth to restore its structure and aesthetics. Made from porcelain, zirconia, or metal-ceramic, crowns protect weakened teeth and blend naturally with your smile.",
+    whoItsFor: [
+      "Teeth with large fillings or cracks",
+      "Root-canal-treated teeth",
+      "Severely worn or broken teeth",
+      "Cosmetic restoration of discolored teeth",
+    ],
+    duration: "2 visits over 1-2 weeks",
+    aftercare: [
+      "Avoid biting on very hard foods or ice",
+      "Maintain daily brushing and flossing",
+      "Report any looseness or discomfort promptly",
+      "Visit your dentist for regular check-ups",
+    ],
+  },
+  
+  rootCanal: {
+    title: "Root Canal Treatment",
+    icon: ShieldAlert,
+    description: "Saves infected or deeply decayed teeth through painless cleaning and sealing of the inner root canals.",
+    whatItIs: "Root canal therapy removes infected or inflamed pulp from inside the tooth, disinfects the canals, and seals them with a biocompatible material. The treated tooth is then restored with a crown for protection and function.",
+    whoItsFor: [
+      "Teeth with deep decay or infection",
+      "Persistent tooth pain or sensitivity",
+      "Swelling or abscess near the tooth",
+      "Previously injured or fractured teeth",
+    ],
+    duration: "1-2 visits depending on complexity",
+    aftercare: [
+      "Avoid chewing hard foods until the crown is placed",
+      "Maintain excellent oral hygiene",
+      "Take prescribed medications if advised",
+      "Follow up promptly for crown placement and reviews",
+    ],
+  },
+  
 };
 
 export default function ServiceDetail() {
