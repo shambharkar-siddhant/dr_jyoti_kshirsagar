@@ -18,7 +18,7 @@ export default function Header() {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-heading font-bold text-lg">DG</span>
               </div>
-              <span className="font-heading font-semibold text-lg hidden sm:block">DentalGlow</span>
+              <span className="font-heading font-semibold ttext-base sm:text-lg">DentalGlow</span>
             </div>
           </Link>
 
