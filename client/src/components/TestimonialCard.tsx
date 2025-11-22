@@ -17,10 +17,10 @@ export default function TestimonialCard({ name, text, avatar }: TestimonialCardP
 
   return (
     <Card className="h-full" data-testid={`card-testimonial-${name.replace(/\s+/g, '-').toLowerCase()}`}>
-      <CardContent className="pt-6">
+      <CardContent className="pt-6 h-full flex flex-col">
         <Quote className="w-8 h-8 text-primary/20 mb-4" />
         <p className="text-sm text-foreground mb-4 leading-relaxed">{text}</p>
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-3 mt-auto">
           <Avatar className="w-10 h-10">
             <AvatarImage src={avatar} alt={name} />
             <AvatarFallback className="bg-primary/10 text-primary font-medium">

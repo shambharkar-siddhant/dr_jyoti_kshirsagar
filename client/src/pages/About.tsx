@@ -1,6 +1,6 @@
 import { Heart, Coffee, Book, Smile } from "lucide-react";
 import QuickBookingStrip from "@/components/QuickBookingStrip";
-import doctorImg from '@assets/generated_images/Friendly_dentist_portrait_photo_40b2a4a5.png';
+import doctorImg from '@assets/generated_images/about_profile.png';
 import clinicImg from '@assets/generated_images/Friendly_clinic_interior_479a0f47.png';
 import patientImg from '@assets/generated_images/Dentist_with_patient_interaction_cf9e06cf.png';
 import equipmentImg from '@assets/generated_images/Modern_dental_equipment_da10c83b.png';
@@ -17,20 +17,20 @@ export default function About() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
-            <div className="rounded-2xl overflow-hidden">
+            <div className="rounded-2xl overflow-hidden  h-full md:h-full">
               <img
                 src={doctorImg}
                 alt="Dr. Jyoti"
-                className="w-full h-auto"
+                className="w-full h-full object-cover"
                 data-testid="img-about-doctor"
               />
             </div>
-            <div className="space-y-4">
+            <div className="space-y-4 h-full flex flex-col justify-center">
               <p className="text-base leading-relaxed">
               Hi, I'm Dr. Jyoti Kshirsagar, a Specialist Prosthodontist and Cosmetic Dentist with over 15 years of experience helping people fall in love with their smiles. I specialize in veneers, smile design, implants, and full-mouth rehabilitation, combining precision, aesthetics, and comfort in every treatment.
               </p>
               <p className="text-base leading-relaxed">
-              I completed my Bachelor’s in Dentistry in 2009 and later earned my Master's in Prosthodontics and Implantology in 2017—a field that allows me to blend science and artistry every single day. My passion for advanced cosmetic dentistry keeps me learning through international dental conferences, research, and publications.
+              I completed my Bachelor's in Dentistry in 2009 and later earned my Master's in Prosthodontics and Implantology in 2017—a field that allows me to blend science and artistry every single day. My passion for advanced cosmetic dentistry keeps me learning through international dental conferences, research, and publications.
               </p>
               <p className="text-base leading-relaxed">
               I believe every smile is unique, and so is every patient. My goal is to make your dental journey relaxed, transparent, and rewarding—from simple preventive care to complete smile makeovers, all in a calm, welcoming environment where you'll always feel at ease.

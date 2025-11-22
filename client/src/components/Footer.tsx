@@ -58,7 +58,7 @@ export default function Footer() {
             <h3 className="font-heading font-semibold text-lg mb-4">Follow Us</h3>
             <div className="flex space-x-3">
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/918149600848"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-footer-whatsapp"

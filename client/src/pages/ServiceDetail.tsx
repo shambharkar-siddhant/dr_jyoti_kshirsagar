@@ -260,33 +260,6 @@ export default function ServiceDetail() {
                 </ul>
               </CardContent>
             </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex items-center space-x-2 mb-3">
-                  <Clock className="w-5 h-5 text-primary" />
-                  <h2 className="font-heading text-xl font-semibold">Duration</h2>
-                </div>
-                <p className="text-muted-foreground">{service.duration}</p>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex items-center space-x-2 mb-3">
-                  <Heart className="w-5 h-5 text-primary" />
-                  <h2 className="font-heading text-xl font-semibold">Aftercare Tips</h2>
-                </div>
-                <ul className="space-y-2">
-                  {service.aftercare.map((item, index) => (
-                    <li key={index} className="flex items-start space-x-2">
-                      <span className="text-primary mt-1">•</span>
-                      <span className="text-muted-foreground">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
           </div>
 
           <QuickBookingStrip serviceName={service.title} />

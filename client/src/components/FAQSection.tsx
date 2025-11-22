@@ -13,24 +13,24 @@ interface FAQ {
 
 const faqs: FAQ[] = [
   {
-    question: "How to make an appointment with Dr.Jyoti?",
-    answer: "The most effective way to schedule appointment with Dr.Jyoti is by sending WhatsApp message on +0000000000 number",
+    question: "How to make an appointment?",
+    answer: "The most effective way to schedule appointment with Dr.Jyoti is by sending WhatsApp message.",
   },
   {
     question: "Do I need to send photo of my teeth?",
-    answer: "Yes. You can definetly send picture of your teeth on whatsapp, it will be very healpful.",
+    answer: "Yes. You can definetly send picture of your teeth on whatsapp, it will be very helpful.",
   },
   {
     question: "How many sessions does it take to get veeners?",
-    answer: "It can be done in only two sessions, the first one lasting 30 minutes and the second one 1 hour.",
+    answer: "It can be done in only two sessions only.",
   },
   {
     question: "How many days does it take to get veeners?",
-    answer: "You may select a package based on the number of days, with options for 4-day, 5-day, 7-day, and 14-day stays",
+    answer: "You may select a package based on the number of days, message on whatsapp to know more",
   },
   {
-    question: "What is price of veeners without shaving the teeth?",
-    answer: "Text us at +00000000000 on WhatsApp to get a quote for non shaving veneers",
+    question: "What is price of veeners ?",
+    answer: "Text us at +00000000000 on WhatsApp to get a quotation",
   },
 ];
 

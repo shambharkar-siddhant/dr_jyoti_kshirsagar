@@ -51,7 +51,7 @@ export default function Header() {
 
           <div className="hidden md:flex items-center space-x-2">
             <a
-              href="tel:+919876543210"
+              href="tel:+918149600848"
               data-testid="button-header-call"
             >
               <Button variant="outline" size="default">
@@ -109,7 +109,7 @@ export default function Header() {
               </Link>
               <div className="pt-2 space-y-2">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918149600848"
                   className="block"
                   data-testid="button-mobile-call"
                 >

@@ -32,7 +32,7 @@ export default function InlineBookingStrip() {
   const onSubmit = (data: BookingFormData) => {
     const fullMessage = `Hi Dr! I'm ${data.name} and I'd like to book an appointment.\n\n${data.message}\n\nMy WhatsApp: ${data.whatsapp}`;
     const encodedMessage = encodeURIComponent(fullMessage);
-    window.open(`https://wa.me/919876543210?text=${encodedMessage}`, "_blank");
+    window.open(`https://wa.me/918149600848?text=${encodedMessage}`, "_blank");
     
     toast({
       title: "Opening WhatsApp...",

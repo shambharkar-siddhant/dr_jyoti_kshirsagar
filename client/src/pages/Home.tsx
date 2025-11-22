@@ -76,14 +76,11 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-5">
-              <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
+              <h1 className="font-heading text-4xl sm:text-5xl lg:text-4xl font-bold mb-4">
                 Dr. Jyoti
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground mb-6">
-                Cosmetic Dentist
-              </p>
-              <p className="text-l sm:text-l text-muted-foreground mb-6">
-                MDS Prosthodontist
+                Cosmetic Dentist,  Expert Prosthodontist 
               </p>
               <div className="flex flex-wrap gap-2 mb-8">
                 <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Hollywood Smile</span>
@@ -93,7 +90,7 @@ export default function Home() {
                 <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Full Mouth Rehabilitation</span>
               </div>
               <a
-                href="tel:+919876543210"
+                href="tel:+918149600848"
                 className="inline-block"
                 data-testid="button-hero-call"
               >
