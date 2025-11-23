@@ -1,6 +1,7 @@
 import { Phone } from "lucide-react";
 import { Sparkles, Smile, Shield, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { SiWhatsapp } from "react-icons/si";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
@@ -80,7 +81,7 @@ export default function Home() {
                 Dr. Jyoti
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground mb-6">
-                Cosmetic Dentist,  Expert Prosthodontist 
+                Cosmetic Dentist,  Specialist Prosthodontist 
               </p>
               <div className="flex flex-wrap gap-2 mb-8">
                 <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Hollywood Smile</span>
@@ -90,14 +91,13 @@ export default function Home() {
                 <span className="text-sm bg-primary/10 text-primary px-3 py-1 rounded-full">Full Mouth Rehabilitation</span>
               </div>
               <a
-                href="tel:+918149600848"
+                href="https://wa.me/+971 56 653 7451"
                 className="inline-block"
                 data-testid="button-hero-call"
               >
                 <Button variant="outline" size="lg" className="group">
-                  <Phone className="w-5 h-5 mr-2" />
-                  <span className="hidden sm:inline">WhatsApp Now - </span>
-                  <span className="font-semibold">+91 98765 43210</span>
+                  <SiWhatsapp className="w-5 h-5 mr-2 text-[#25D366]" />
+                  <span className="hidden sm:inline">WhatsApp Now</span>
                 </Button>
               </a>
             </div>

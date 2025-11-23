@@ -185,7 +185,26 @@ const servicesData: Record<string, {
       "Follow up promptly for crown placement and reviews",
     ],
   },
-  
+  dentures: {
+    title: "Dentures",
+    icon: Smile,
+    description: "Comfortable, natural-looking replacement for missing teeth that restores your smile, chewing ability, and confidence.",
+    whatItIs: "Dentures are custom-made removable appliances designed to replace missing teeth and surrounding tissues. Depending on your needs, they can be full dentures (replacing all teeth) or partial dentures (replacing a few missing teeth). Modern dentures are lightweight, natural-looking, and designed to fit comfortably for daily use.",
+    whoItsFor: [
+      "Patients who have lost multiple or all teeth",
+      "Those wanting an affordable tooth replacement option",
+      "People unable to undergo implant surgery",
+      "Patients seeking to improve chewing, speech, and facial support",
+    ],
+    duration: "2-3 visits over 1-2 weeks",
+    aftercare: [
+      "Remove and clean dentures daily",
+      "Soak dentures overnight in recommended solution",
+      "Avoid very hot foods initially",
+      "Visit your dentist regularly for adjustments and relining",
+    ],
+  },
+
 };
 
 export default function ServiceDetail() {

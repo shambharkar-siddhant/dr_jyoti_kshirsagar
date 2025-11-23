@@ -56,6 +56,12 @@ const services = [
     description: "Save infected teeth with painless precision",
     icon: ShieldAlert, // or use HeartPulse / ShieldAlert / Stethoscope if available
   },
+  {
+    id: "dentures",
+    title: "Dentures",
+    description: "Replace missing teeth with natural-looking comfort",
+    icon: Smile,
+  },
 ];
 
 export default function Services() {

@@ -20,11 +20,11 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
                 <a
-                  href="tel:+919876543210"
+                  href="tel:971566537451"
                   className="text-muted-foreground hover:text-primary transition-colors"
                   data-testid="link-footer-phone"
                 >
-                  +91 98765 43210
+                  +971 56 653 7451
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -58,7 +58,7 @@ export default function Footer() {
             <h3 className="font-heading font-semibold text-lg mb-4">Follow Us</h3>
             <div className="flex space-x-3">
               <a
-                href="https://wa.me/918149600848"
+                href="https://wa.me/971 56 653 7451"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-footer-whatsapp"
@@ -68,7 +68,7 @@ export default function Footer() {
                 </Button>
               </a>
               <a
-                href="https://instagram.com/dentalglow"
+                href="https://www.instagram.com/smilebeautyrehabdxb"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-footer-instagram"
