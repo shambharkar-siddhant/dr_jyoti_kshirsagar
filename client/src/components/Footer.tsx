@@ -78,9 +78,6 @@ export default function Footer() {
                 </Button>
               </a>
             </div>
-            <p className="text-xs text-muted-foreground mt-4">
-              Connect with us on WhatsApp for quick appointments and queries
-            </p>
           </div>
         </div>
 

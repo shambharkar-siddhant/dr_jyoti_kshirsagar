@@ -12,8 +12,8 @@ import before1 from '@assets/generated_images/before_1.png';
 import after1 from '@assets/generated_images/after_1.png';
 import before2 from '@assets/generated_images/before_2.png';
 import after2 from '@assets/generated_images/after_2.png';
-import before3 from '@assets/generated_images/Before_teeth_transformation_gaps_318c195f.png';
-import after3 from '@assets/generated_images/After_teeth_transformation_no_gaps_83747cb8.png';
+import before3 from '@assets/generated_images/before_3.jpg';
+import after3 from '@assets/generated_images/after_3.jpg';
 import avatar1 from '@assets/generated_images/Female_testimonial_avatar_photo_b6500cb3.png';
 import avatar2 from '@assets/generated_images/Male_testimonial_avatar_photo_4aba068e.png';
 import avatar3 from '@assets/generated_images/Young_female_testimonial_avatar_88a87ddb.png';
@@ -95,10 +95,10 @@ export default function Home() {
                 className="inline-block"
                 data-testid="button-hero-call"
               >
-                <Button variant="outline" size="lg" className="group">
-                  <SiWhatsapp className="w-5 h-5 mr-2 text-[#25D366]" />
-                  <span className="hidden sm:inline">WhatsApp Now</span>
-                </Button>
+              <Button variant="outline" size="lg" className="group">
+                <SiWhatsapp className="w-5 h-5 mr-2 text-[#25D366]" />
+                <span>WhatsApp Now</span>
+              </Button>
               </a>
             </div>
             <div className="order-1 md:order-2 flex justify-center md:justify-end">
