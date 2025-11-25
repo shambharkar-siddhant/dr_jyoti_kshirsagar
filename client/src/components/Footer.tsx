@@ -83,7 +83,7 @@ export default function Footer() {
 
         <div className="h-64 w-full rounded-lg overflow-hidden border">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.4479664250644!2d55.2808685!3d25.2218326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42ed8748e289%3A0x119a96ab5b8e2718!2sDr%20Krish%20Esthetik%20Studio%20Dental%20Clinic%20-%20Award%20winning%20clinic!5e0!3m2!1sen!2sin!4v1764006751640!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.444133018887!2d55.27922943441533!3d25.221961786540845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42ed8748e289%3A0x7d86ed2d819cf802!2sLatifa%20Tower%20-%20Trade%20Center%20First%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1764046345761!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
