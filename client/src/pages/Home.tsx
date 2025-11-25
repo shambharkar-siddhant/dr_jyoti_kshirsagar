@@ -23,7 +23,7 @@ const services = [
   {
     id: "veneers",
     title: "Veneers",
-    description: "Minimal prep, natural look",
+    description: "No Shaving Teeth, natural look",
     icon: Smile,
   },
   {
