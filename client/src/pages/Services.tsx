@@ -1,11 +1,12 @@
 import { Sparkles, Smile, Shield, Zap, Users, Award, Hammer, Gem, ShieldAlert, Crown } from "lucide-react";
 import ServiceCard from "@/components/ServiceCard";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const services = [
   {
     id: "veneers",
     title: "Veneers",
-    description: "Minimal prep, natural look",
+    description: "No Shaving Teeth, natural look",
     icon: Smile,
   },
   {
@@ -83,6 +84,7 @@ export default function Services() {
           </div>
         </div>
       </section>
+      <FloatingWhatsApp />
     </div>
   );
 }

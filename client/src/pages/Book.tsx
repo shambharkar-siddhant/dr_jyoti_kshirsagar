@@ -1,6 +1,7 @@
 import QuickBookingStrip from "@/components/QuickBookingStrip";
 import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 export default function Book() {
   return (
@@ -33,6 +34,7 @@ export default function Book() {
           </a>
         </div>
       </div>
+      <FloatingWhatsApp />
     </div>
   );
 }

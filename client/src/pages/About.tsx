@@ -4,6 +4,7 @@ import doctorImg from '@assets/generated_images/about_profile.png';
 import clinicImg from '@assets/generated_images/Friendly_clinic_interior_479a0f47.png';
 import patientImg from '@assets/generated_images/Dentist_with_patient_interaction_cf9e06cf.png';
 import equipmentImg from '@assets/generated_images/Modern_dental_equipment_da10c83b.png';
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 export default function About() {
   return (
@@ -140,6 +141,7 @@ export default function About() {
           <QuickBookingStrip />
         </div>
       </section>
+      <FloatingWhatsApp />
     </div>
   );
 }

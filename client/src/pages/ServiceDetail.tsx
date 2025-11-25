@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import QuickBookingStrip from "@/components/QuickBookingStrip";
 import { Sparkles, Smile, Shield, Zap, Users as UsersIcon, Award } from "lucide-react";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const servicesData: Record<string, {
   title: string;
@@ -293,6 +294,7 @@ export default function ServiceDetail() {
           </div>
         </div>
       </section>
+      <FloatingWhatsApp />     
     </div>
   );
 }

@@ -17,6 +17,7 @@ import after3 from '@assets/generated_images/after_3.jpg';
 import avatar1 from '@assets/generated_images/Female_testimonial_avatar_photo_b6500cb3.png';
 import avatar2 from '@assets/generated_images/Male_testimonial_avatar_photo_4aba068e.png';
 import avatar3 from '@assets/generated_images/Young_female_testimonial_avatar_88a87ddb.png';
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const services = [
   {
@@ -183,7 +184,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <FloatingWhatsApp />
       <FAQSection />
     </div>
   );

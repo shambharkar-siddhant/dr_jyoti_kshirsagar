@@ -1,5 +1,6 @@
 import { MapPin, Clock, Phone, Mail } from "lucide-react";
 import { SiInstagram, SiWhatsapp } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 import { Button } from "@/components/ui/button";
 
 export default function Footer() {
@@ -13,8 +14,8 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 mt-1 text-primary flex-shrink-0" />
                 <p className="text-muted-foreground">
-                  West wing, Latifa Towers, Office 302 ,3rd floor <br /> 
-                  Sheikh Zayed Rd, Trade Center First, Dubai, UAE
+                  Latifa Towers <br /> 
+                  Sheikh Zayed Road, Dubai, UAE
                 </p>
               </div>
               <div className="flex items-center space-x-3">
@@ -67,7 +68,7 @@ export default function Footer() {
                   <SiWhatsapp className="w-5 h-5" />
                 </Button>
               </a>
-              <a
+              {/* <a
                 href="https://www.instagram.com/smilebeautyrehabdxb"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -75,6 +76,16 @@ export default function Footer() {
               >
                 <Button variant="outline" size="icon" className="hover-elevate">
                   <SiInstagram className="w-5 h-5" />
+                </Button>
+              </a> */}
+              <a
+                href="mailto:dentalglow.dubai@gmail.com" 
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="link-footer-email"
+              >
+                <Button variant="outline" size="icon" className="hover-elevate">
+                  <MdEmail className="w-5 h-5" />
                 </Button>
               </a>
             </div>
