@@ -30,7 +30,7 @@ const faqs: FAQ[] = [
   },
   {
     question: "What is price of veeners ?",
-    answer: "Text us at +971566537451 on WhatsApp to get a quotation",
+    answer: "Text us at +971585540640 on WhatsApp to get a quotation",
   },
 ];
 

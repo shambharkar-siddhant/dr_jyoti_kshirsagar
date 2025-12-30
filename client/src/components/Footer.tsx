@@ -21,11 +21,11 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary flex-shrink-0" />
                 <a
-                  href="tel:971566537451"
+                  href="tel:971585540640"
                   className="text-muted-foreground hover:text-primary transition-colors"
                   data-testid="link-footer-phone"
                 >
-                  +971 56 653 7451
+                  +971 585 540 640
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -59,7 +59,7 @@ export default function Footer() {
             <h3 className="font-heading font-semibold text-lg mb-4">Follow Us</h3>
             <div className="flex space-x-3">
               <a
-                href="https://wa.me/971 56 653 7451"
+                href="https://wa.me/971585540640"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-footer-whatsapp"
@@ -108,7 +108,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} DentalGlow. All rights reserved.
+            © {new Date().getFullYear()} DazzlingSmile. All rights reserved.
           </p>
         </div>
       </div>

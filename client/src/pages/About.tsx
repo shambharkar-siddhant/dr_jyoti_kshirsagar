@@ -47,7 +47,7 @@ export default function About() {
             What You Can Expect
           </h2>
           <p className="text-center text-muted-foreground mb-12">
-            How we do things at DentalGlow
+            How we do things at DazzlingSmile
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 items-start">

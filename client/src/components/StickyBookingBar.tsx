@@ -36,7 +36,7 @@ export default function StickyBookingBar() {
     e.preventDefault();
     const fullMessage = `Hi! I'm ${name}.\n\n${message}\n\nMy WhatsApp: ${whatsapp}`;
     const encodedMessage = encodeURIComponent(fullMessage);
-    window.open(`https://wa.me/918149600848?text=${encodedMessage}`, "_blank");
+    window.open(`https://wa.me/971585540640?text=${encodedMessage}`, "_blank");
   };
 
   if (!isVisible) {

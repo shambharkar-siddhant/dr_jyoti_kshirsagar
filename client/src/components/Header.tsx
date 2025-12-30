@@ -16,9 +16,9 @@ export default function Header() {
           <Link href="/" data-testid="link-home">
             <div className="flex items-center space-x-2 cursor-pointer">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">DG</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">DS</span>
               </div>
-              <span className="font-heading font-semibold ttext-base sm:text-lg">DentalGlow</span>
+              <span className="font-heading font-semibold ttext-base sm:text-lg">DazzlingSmile</span>
             </div>
           </Link>
 
@@ -51,7 +51,7 @@ export default function Header() {
 
           <div className="hidden md:flex items-center space-x-2">
             <a
-              href="tel:+971 56 653 7451"
+              href="tel:+971585540640"
               data-testid="button-header-call"
             >
               <Button variant="outline" size="default">
@@ -109,7 +109,7 @@ export default function Header() {
               </Link>
               <div className="pt-2 space-y-2">
                 <a
-                  href="tel:+971 56 653 7451"
+                  href="tel:+971585540640"
                   className="block"
                   data-testid="button-mobile-call"
                 >

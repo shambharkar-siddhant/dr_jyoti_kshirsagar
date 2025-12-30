@@ -44,7 +44,7 @@ export default function BookingForm({ serviceName }: BookingFormProps) {
   const openWhatsApp = (data: BookingFormData) => {
     const message = `Hi! I'm ${data.name}.\n\n${data.message}\n\nMy WhatsApp number: ${data.whatsapp}`;
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/918149600848?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/971585540640?text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -73,7 +73,7 @@ export default function BookingForm({ serviceName }: BookingFormProps) {
       ? `Hi! I'd like to book an appointment for ${serviceName}.`
       : "Hi! I'd like to book an appointment.";
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/918149600848?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/971585540640?text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
   };
 
